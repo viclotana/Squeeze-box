@@ -54,7 +54,7 @@ header h1 {
 }
 
 .tab:hover .social a:before {
-    margin-left: -100px;
+    margin-left: 0px;
 }
 
 .tab:hover .social a:after {
@@ -65,7 +65,7 @@ header h1 {
     background: #fff;
     width: 360px;
     height: 200px;
-    margin-left: 88.5px;
+    margin-left: 80px;
     position: relative;
     padding: 50px 0 0 15px;
 }
@@ -76,7 +76,7 @@ header h1 {
 
 .tab .content p {
     font-size: 0.85rem;
-    line-height: 10px;
+    line-height: 1.4rem;
     padding-right: 30px;
 }
 
@@ -95,6 +95,14 @@ header h1 {
     color: #fff;
 }
 
+.social a:after {
+    font-size: 48px;
+    padding-left: 20px;
+    padding-top: 80px;
+    margin-left: 85px;
+}
+
+/* add icons*/
 .youtube a:before, 
 .youtube a:after {
     content: '\f213'
@@ -102,4 +110,49 @@ header h1 {
 
 .youtube a:after {
     background-color: #ff0000;
+}
+
+.twitter a:before, 
+.twitter a:after {
+    content: '\f202'
+}
+
+.twitter a:after {
+    background-color: #6dc5dd;
+}
+
+.facebook a:before, 
+.facebook a:after {
+    content: '\f204'
+}
+
+.facebook a:after {
+    background-color: #3b5998;
+}
+
+.linkedin a:before, 
+.linkedin a:after {
+    content: '\f208'
+}
+
+.linkedin a:after {
+    background-color: #00a9cd;
+}
+
+.instagram a:before, 
+.instagram a:after {
+    content: '\f215'
+}
+
+.instagram a:after {
+    background-color: #6dc993;
+}
+
+.github a:before, 
+.github a:after {
+    content: '\f200'
+}
+
+.github a:after {
+    background-color: #6e5494;
 }
