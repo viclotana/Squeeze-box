@@ -53,6 +53,14 @@ header h1 {
     width: 450px;
 }
 
+.tab:hover .social a:before {
+    margin-left: -100px;
+}
+
+.tab:hover .social a:after {
+    margin-left: -5px;
+}
+
 .tab .content {
     background: #fff;
     width: 360px;
