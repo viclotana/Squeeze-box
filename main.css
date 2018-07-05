@@ -34,4 +34,20 @@ header h1 {
     list-style-type: none;
     overflow: hidden;
     height: 200px;
+    font-size: 0;
+}
+
+.tab {
+    display: inline-block;
+    background-color: #444;
+    border-right: #333 solid 1px;
+    width: 80px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    margin: 0;
+}
+
+.tab:hover {
+    width: 450px;
 }
